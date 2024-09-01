@@ -84,7 +84,39 @@ main{
 .nossosalunos{
     box-sizing: border-box;
     margin-top: 8em;
-    padding: 2em 8em;
+    padding: 4em 8em;
     background-color: white;
     width: 100%;
+}
+.nossosalunoslinha{
+    display: flex;
+}
+.nossosalunoslinha hr{
+    color: #BF8E50;
+}
+.nossosalunoslinha *{
+    margin: auto 1em;
+}
+.card{
+    box-sizing: border-box;
+    padding: 4em;
+    background-color: #D9D9D9;
+    width: 20%;
+    border-radius: 20px;
+    display: flex;
+}
+.card{
+    padding: 0.5em;
+}
+.completa{
+    display: flex;
+    border: none;
+    background-color: #2F1853;
+    color: #D9D9D9;
+    padding: 1em;
+    border-radius: 8px;
+}
+.completa *{
+    margin: 0 0.4em;
+    font-size: 15px;
 }
