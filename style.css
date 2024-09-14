@@ -124,6 +124,12 @@ button#menu{
     background-color: white;
     width: 100%;
 }
+.nossosalunos2{
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 2em 8em;
+    width: 100%;
+}
 .nossosalunoslinha{
     display: flex;
 }
@@ -143,10 +149,11 @@ button#menu{
 .card{
     padding: 3em;
     background-color: #D9D9D9;
-    max-width: 40%;
+    width: 25%;
     border-radius: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card{
     margin: 0.5em;
@@ -336,7 +343,7 @@ footer p{
     .card{
         padding: 1em;
         background-color: #D9D9D9;
-        max-width: 40%;
+        width: 60%;
         border-radius: 20px;
         display: flex;
         flex-wrap: wrap;
@@ -353,7 +360,7 @@ footer p{
         font-style: normal;
     }
     .card *{
-        margin: 0.2em;
+        margin: 0.2em auto;
     }
     .card img{
         width: 70%;
