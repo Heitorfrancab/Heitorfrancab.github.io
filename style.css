@@ -40,6 +40,11 @@ h1 *{
     font-style: normal;
     font-size: 1.3em;
 }
+
+main.alunos{
+    margin: 0 auto;
+    width: 95%;
+}
 main{
     margin-top: 7em;
 }
