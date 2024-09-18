@@ -34,7 +34,7 @@ h1 *{
 }
 .main-menu a{
     text-decoration: none;
-    color: white;
+    color: #f5f5f5;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -59,7 +59,7 @@ button#menu{
     right: 0;
     top: 0;
     overflow: auto;
-    background-color: white;
+    background-color: #f5f5f5;
     padding: 10em;
     height: 100vh;
 }
@@ -100,14 +100,14 @@ button#menu{
     display: relative;
 }
 .introdução p{
-    color: white;
+    color: #f5f5f5;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     font-size: 2.5em;
 }
 .introdução button{
-    color: white;
+    color: #f5f5f5;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -126,7 +126,7 @@ button#menu{
     box-sizing: border-box;
     margin-top: 8em;
     padding: 4em 8em;
-    background-color: white;
+    background-color: #f5f5f5;
     width: 100%;
 }
 .nossosalunos2{
@@ -153,7 +153,7 @@ button#menu{
 }
 .card{
     padding: 3em;
-    background-color: #D9D9D9;
+    background-color: #f5f5f5;
     width: 25%;
     border-radius: 20px;
     display: flex;
@@ -188,7 +188,7 @@ button#menu{
     display: flex;
     border: none;
     background-color: #2F1853;
-    color: #D9D9D9;
+    color: #f5f5f5;
     padding: 1em;
     border-radius: 8px;
 }
@@ -197,7 +197,7 @@ button#menu{
     font-size: 15px;
 }
 .vermais{
-    color: white;
+    color: #f5f5f5;
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -223,11 +223,26 @@ button#menu{
     padding: 1em;
 }
 footer p{
-    color: white;
+    color: #f5f5f5;
     text-align: center;
 }
 .social ul{
     list-style: none;
+}
+.cardsmomentos{
+    margin: 4em 3em;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardsmomentos .card{
+    width: 17%;
+}
+.cardsmomentos img{
+    height: 270px;
+}
+.cardsmomentos .cardtext{
+    width: 120%;
 }
 
 @media screen and (max-width:800px){
@@ -275,7 +290,7 @@ footer p{
         right: 0;
         top: 0;
         overflow: auto;
-        background-color: white;
+        background-color: #f5f5f5;
         padding: 5em;
         height: 100vh;
     }
@@ -295,14 +310,14 @@ footer p{
         display: relative;
     }
     .introdução p{
-        color: white;
+        color: #f5f5f5;
         font-family: "Roboto Condensed", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
         font-size: 1.4em;
     }
     .introdução button{
-        color: white;
+        color: #f5f5f5;
         font-family: "Roboto Condensed", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
@@ -325,7 +340,7 @@ footer p{
         box-sizing: border-box;
         margin-top: 3em;
         padding: 4em 2em;
-        background-color: white;
+        background-color: #f5f5f5;
         width: 100%;
     }
     .nossosalunoslinha{
@@ -347,7 +362,7 @@ footer p{
     }
     .card{
         padding: 1em;
-        background-color: #D9D9D9;
+        background-color: #f5f5f5;
         width: 60%;
         border-radius: 20px;
         display: flex;
@@ -387,7 +402,7 @@ footer p{
         display: flex;
         border: none;
         background-color: #2F1853;
-        color: #D9D9D9;
+        color: #f5f5f5;
         padding: 1em;
         border-radius: 8px;
         
@@ -397,7 +412,7 @@ footer p{
         font-size: 15px;
     }
     .vermais{
-        color: white;
+        color: #f5f5f5;
         font-family: "Roboto Condensed", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
@@ -425,7 +440,7 @@ footer p{
         padding: 1em;
     }
     footer p{
-        color: white;
+        color: #f5f5f5;
         text-align: center;
     }
 }

@@ -21,7 +21,11 @@ body{
     margin: auto;
 }
 .left_container{
+    border: 2px solid #88849c;
+    background-color: #1D1B30;
     margin: 25%;
+    padding: 3em;
+    border-radius: 1em;
 }
 h1{
     display: flex;
