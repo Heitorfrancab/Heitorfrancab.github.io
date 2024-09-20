@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, #242336, #1D1B30);
+    width: 100%;
+}
+header{
+    display: flex;
+    padding: 3em 7.5em 0 7.5em;
+}
+header *{
+    margin: auto 0;
+}
+h1{
+    display: flex;
+}
+h1 *{
+    padding: 0 0.4em;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+}
+.menu ul li{
+    padding: 0 1em;
+}
+.main-menu{
+    text-align: center;
+    position:static;
+    margin: auto;
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.3em;
+}
+
+main.alunos{
+    margin: 0 auto;
+    width: 95%;
+}
+main{
+    margin-top: 7em;
+}
+button#menu{
+    background-color: rgba(0, 0, 0, 0);
+    color: none;
+    border: none;
+}
+.modal{
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    background-color: white;
+    padding: 10em;
+    height: 100vh;
+}
+.close {
+    color: #aaa;
+    font-size: 40px;
+    font-weight: bold;
+}
+.modal ul{
+    list-style: none;
+}
+.modal li{
+    margin-bottom: 1em;
+}
+.modal a{
+    text-decoration: none;
+    color: #1D1B30;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.3em;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.container *{
+    margin: auto 0;
+    padding: 2em 4.5em 2em 7.5em;
+}
+.introdução{
+    width: 100%;
+}
+.introdução *{
+    margin:  auto auto;
+    padding: 0.2em 0.4em;
+    display: relative;
+}
+.introdução p{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 2.5em;
+}
+.introdução button{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5em;
+    border: none;
+    background-color: #BF8E50;
+    border-radius: 15px;
+    width: 7em;
+    height: 2.5em;
+    margin-left: 1em;
+}
+.imagem source{
+    max-width: 40em;
+}
+.nossosalunos{
+    box-sizing: border-box;
+    margin-top: 8em;
+    padding: 0em 8em;
+    background-color: white;
+    width: 100%;
+    padding-top:4em ;
+    padding-bottom:0em ;
+}
+.nossosalunos2{
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 2em 8em;
+    width: 100%;
+}
+.nossosalunoslinha{
+    display: flex;
+}
+.nossosalunoslinha hr{
+    border-bottom: 2px solid #BF8E50;
+}
+.nossosalunoslinha *{
+    margin: auto 1em;
+}
+.cards{
+    margin: 8em auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: center;
+}
+.card{
+    padding: 3em;
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    margin: 0.5em;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card h3{
+    font-size: 2em;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.card *{
+    margin: 0.2em;
+}
+
+.card h4, .cardtext > p{
+    font-size: 1.2em;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.completa{
+    display: flex;
+    border: none;
+    background-color: #2F1853;
+    color: #D9D9D9;
+    padding: 1em;
+    border-radius: 8px;
+}
+.completa *{
+    margin: 0 0.4em;
+    font-size: 15px;
+}
+.vermais{
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.5em;
+    border: none;
+    background-color: #2F1853;
+    border-radius: 15px;
+    width: 7em;
+    height: 2.5em;
+    margin: 0 45.5%;
+}
+
+.social ul{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.social li{
+    margin: 2em;
+}
+.copyright{
+    background-color: #1C0048;
+    padding: 1em;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+.social ul{
+    list-style: none;
+}
+
+ul.perguntas {
+    list-style-type: none;
+    padding-left: 0em;
+    text-align: left;
+    padding-left:3em ;
+   
+}
+  
+ul.perguntas li {
+    font-size: 1em;
+    list-style: none; /* Remove o marcador padrão */
+    position: relative; /* Necessário para o alinhamento */
+    max-width: 100%;
+}
+  
+  ul.perguntas li::before {
+    content: "•"; /* Adiciona manualmente o marcador */
+    font-size: 2.5em; /* Ajusta o tamanho do marcador */
+    margin-right: 10px; /* Espaçamento entre o marcador e o texto */
+    color: white; /* Cor do marcador */
+    position: absolute;
+    left: 0px; /* Ajusta a posição do marcador */
+    top: 0;
+}
+.diatinf{
+    
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    font-size: 20px ;
+    
+}
+.containerdiatinf{
+    text-align: center;
+    margin-left:45% ;
+    
+}
+  
+.logodiatinf {
+    padding: 1em;
+}
+  
+  .diatinf {
+    display: flex;
+    align-items: center; /* Alinha os itens dentro do parágrafo */
+  }
+.containerdiatinf a{
+    width: 5em;
+}
