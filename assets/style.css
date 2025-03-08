@@ -1,0 +1,294 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, 
+a, img, ol, ul, li, form, label, tr, th, td,
+figure, main, footer, header, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1.4;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+
+html{
+    background-image: url('images/background.png');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 95%;
+}
+
+body{
+    gap: 0;
+}
+
+body > *{
+    margin: 0;
+}
+
+main{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: 
+    "left right";
+}
+
+h1{
+    margin-bottom: 4%;
+}
+
+.comando{
+    box-sizing: border-box;
+    padding: 10% 15%;
+    width: 90%;
+}
+
+.comando > *{
+    text-align: center;
+}
+
+
+p, li, span{
+    font-family: "Roboto Condensed", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 1.5% 0;
+    letter-spacing: 10%;
+}
+
+span {
+    margin: 1.5%;
+    color: #ac4f4f;
+    font-weight: 500;
+    display: none;
+}
+
+.navtext{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+.smalltext, .smalltext > a{
+    font-size: 115%;
+}
+
+.mediumtext{
+    font-size: 140%;
+}
+
+.click > a{
+    color: #f0f0f0;
+}
+
+.click{
+    font-weight: 600;
+}
+
+h2{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 350%;
+}
+
+.text{
+    text-align: left;
+}
+
+.ifrn{
+    background-image: url('images/ifrn2.png');
+    max-height: 52rem;
+}
+.ifrn img{
+    height: 52rem;
+}
+
+h1, h2, p{
+    color: #f0f0f0;
+}
+
+.opc{
+    background: linear-gradient(#526B5C, #526B5C);
+    background-color: #39453E;
+}
+
+.opc ul{
+    display: flex;
+    gap: 2rem;
+    margin-left: 7%;
+}
+
+.co{
+    width: 100%;
+    background-color: #526B5C;
+}
+
+.co > *{
+    display: inline-block;
+    margin: 0 0.5em 0.5rem 0.5em;
+}
+
+.co nav{
+    justify-content: left;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.co ul{
+    display: flex;
+    gap: 1.2rem;
+}
+
+#cop{
+    margin-top: 0;
+    padding: 0;
+    margin: 0 55% 0 7%;
+}
+
+#sobre {
+    display: none;
+}
+
+#sobreprojeto {
+    display: inline-block;
+}
+
+main > div.comando{
+    grid-area: left;
+}
+
+main > div.image{
+    grid-area: right;
+}
+
+body > footer{
+    grid-area: footer;
+}
+
+body > main{
+    grid-area: main;
+}
+
+@media screen and (max-width:800px) {
+    h1{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    h1 img{
+        width: 70%;
+    }
+
+    h2{
+        font-size: 250%;
+    }
+
+    .smalltext, .smalltext > a{
+        font-size: 85%;
+    }
+    
+    .mediumtext{
+        font-size: 110%;
+    }
+
+    .image{
+        display: none;
+    }
+
+    main{
+        padding-top: 5%;
+
+    }
+    
+    .opc ul{     
+        padding-left: 25%;
+        padding-right: 25%;
+        padding-top:0.5em
+    }
+
+    #cop{
+        padding-left: 23.8%;
+        padding-right: 0;
+    }
+
+    .comando{
+        padding-right:  5%;
+    }
+
+    .opc{
+        background: linear-gradient(#526B5C, #526B5C);
+        background-color: #39453E;
+    }
+    
+    .opc ul{
+        display: flex;
+        gap: 10%;
+        padding-bottom: 3%;
+    }
+    
+    .co{
+        width: 100%;
+        background-color: #526B5C;
+        display: block;
+    }
+    
+    .co img{
+        width: 70%;
+    }
+
+    .co > *{
+        display: inline-block;
+        margin: 0.5% 0;
+        text-align: center;
+    }
+    
+    footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #cop{
+        padding: 0;
+        padding: 3% 0;
+        margin: 0;
+    }
+
+    .co ul {
+        gap: 8%;
+    }
+    
+    .co p {
+        font-size: 60%;
+        padding: 0;
+        display: block;
+    }
+
+    .co{
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    #sobre {
+        display: inline-block;
+    }
+
+    #sobreprojeto {
+        display: none;
+    }
+}
